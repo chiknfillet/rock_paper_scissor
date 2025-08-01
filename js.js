@@ -67,7 +67,7 @@ function playRound(humanChoice, computerChoice) {
                 result.textContent = `\n You win! Scissors beats Paper! \n`
                 humanScore++
             } else {
-                result.textContent = `\n It's a draw! \n`
+                result.textContent = `\n It's a draw!  \n`
             }
             break;
     }
